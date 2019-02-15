@@ -1,0 +1,259 @@
+ .row.content {
+     height: 1500px
+ }
+
+ .dropdown:hover .dropdown-menu {
+     display: block;
+     margin-top: 0;
+ }
+
+ .footer-navbar a {
+     margin-left: 16px;
+     color: #9A9A9A;
+     text-align: left;
+     font-size: 14px;
+ }
+
+
+ footer {
+     background-color: #FFFFFF;
+     ;
+     color: #9A9A9A;
+     padding: 31px;
+     margin-top: 271px;
+
+ }
+
+
+
+ .sidenav {
+     background-color: #445649;
+     height: 100%;
+
+ }
+
+ .main {
+     background-color: white;
+     height: 100%;
+
+ }
+
+ .navbar {
+     margin-bottom: 0;
+     border-radius: 0;
+     width: 100%;
+     background-color: #445649;
+     z-index: 25;
+
+ }
+
+
+ .box {
+     border-bottom-style: solid;
+     border-bottom-width: thin;
+     padding-bottom: 13px;
+
+ }
+
+ .rows {
+     display: flex;
+     flex-wrap: wrap;
+     margin-left: -15px;
+     margin-right: -15px;
+ }
+
+ .card {
+     border-radius: 4px;
+     background-color: #ffffff;
+     margin-bottom: 30px;
+     position: relative;
+     display: flex;
+     flex-direction: column;
+     min-width: 0;
+     word-wrap: break-word;
+     background-clip: border-box;
+     border: 1px solid rgba(0, 0, 0, 0.125);
+     margin-top: 20px;
+ }
+
+ .card .card-header {
+     padding: 15px 15px 0;
+     background-color: #ffffff;
+     border-bottom: none !important;
+ }
+
+ .card-header:first-child {
+     border-radius: calc(0.25rem -1px);
+ }
+
+ .card-header {
+     margin-bottom: 0;
+ }
+
+ .card .card-title {
+     margin: 0;
+     color: #333333;
+     font-weight: 300;
+ }
+
+ h4 {
+     font-size: 22px;
+     line-height: 30px;
+ }
+
+ .card .card-category {
+     font-size: 14px;
+     font-weight: 400;
+     color: #9A9A9A;
+     margin-bottom: 0;
+ }
+
+ p {
+     line-height: 1.5;
+ }
+
+ .card .card-body {
+     padding: 15px 15px 10px 15px;
+ }
+
+ .card-body {
+     flex: 1 1 auto;
+ }
+
+ .card .card-footer {
+     padding-top: 0;
+     background-color: transparent;
+     line-height: 30px;
+     border-top: none !important;
+     font-size: 14px;
+ }
+
+ .card-footer:last-child {
+     border-radius: 0 0 cacl(.25rem -1px) calc(.25rem -1px);
+ }
+
+ .card-footer {
+     padding: .75rem 1.25rem;
+ }
+
+ .card .card-footer .legend {
+     padding: 5px 0;
+ }
+
+ .card .card-footer div {
+     display: inline-block;
+ }
+
+ .card .stats {
+     color: #a9a9a9;
+ }
+
+ .table {
+     width: 100%;
+     max-width: 100%;
+     margin-bottom: 1rem;
+     background-color: transparent;
+ }
+
+ table {
+     border-collapse: collapse;
+ }
+
+ tbody {
+     display: table-row-group;
+     vertical-align: middle;
+     border-color: inherit;
+ }
+
+ .table>tbody>tr {
+     position: relative;
+ }
+
+ tr {
+     display: table-row;
+     vertical-align: inherit;
+     border-color: inherit;
+ }
+
+ .card .table tbody td:first-child {
+     padding-left: 15px;
+ }
+
+ .card-task .card-body .table td {
+     font-size: 14px;
+ }
+
+ .table>tbody>tr>td {
+     vertical-align: middle;
+     padding: 12px 8px;
+ }
+
+ .table td {
+     border-top: 1px solid #e9ecef;
+ }
+
+ .form-check {
+     position: relative;
+     display: block;
+     margin-bottom: .5rem;
+ }
+
+ .form-check .form-check-label {
+     display: inline-block;
+     position: relative;
+     cursor: pointer;
+     padding-left: 35px;
+     line-height: 26px;
+     margin-bottom: 0;
+ }
+
+ .card label {
+     font-size: 12px;
+     text-transform: uppercase;
+ }
+
+ .card-task .card-body .table td:last-child {
+     padding-right: 0;
+ }
+
+ .card .table tbody td:last-child {
+     display: inline-flex;
+ }
+
+ .card-task .card-body .table td .btn-info {
+     margin-top: 3px;
+     padding-right: 0;
+ }
+
+ .card-tasks .card-body .table td .btn {
+     font-size: 14px;
+ }
+
+ .table .td-actions .btn {
+     opacity: 0.36;
+ }
+
+ button {
+     text-transform: none;
+     overflow: visible;
+ }
+
+ .btn-info {
+     color: #1DC7EA;
+ }
+
+ .btn-danger {
+     color: #ff4A55;
+ }
+
+ .text-info {
+     color: #1DC7EA;
+ }
+
+ .text-danger {
+     color: #ff4A55;
+ }
+
+ .text-warning {
+     color: rgb(247, 160, 30);
+ }
