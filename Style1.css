@@ -17,7 +17,6 @@
 
  footer {
      background-color: #FFFFFF;
-     ;
      color: #9A9A9A;
      padding: 31px;
      margin-top: 271px;
@@ -29,6 +28,11 @@
  .sidenav {
      background-color: #445649;
      height: 100%;
+     position: fixed;
+     z-index: 1;
+     top: 0;
+     left: 0;
+     width: 25%;
 
  }
 
@@ -51,7 +55,7 @@
  .box {
      border-bottom-style: solid;
      border-bottom-width: thin;
-     padding-bottom: 13px;
+     padding-bottom: 11px;
 
  }
 
